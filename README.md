@@ -29,21 +29,15 @@
 | --- | --- | --- | --- |
 | ID | ID | int | Unique row indentifier |
 | LIMIT\_BAL | input | float | Amount of previously awarded credit |
-| SEX | Demographic information | int | 1 = male;
- 2 = female |
-| RACE | Demographic information | int | 1 = hispanic; 2 = black;
- 3 = white; 4 = asian |
-| EDUCATION | Demographic information | int | 1 = graduate school; 2 = university; 3 = high school;
- 4 = others |
-| MARRIAGE | Demographic information | int | 1 = married; 2 = single;
- 3 = others |
+| SEX | Demographic information | int | 1 = male; 2 = female |
+| RACE | Demographic information | int | 1 = hispanic; 2 = black; 3 = white; 4 = asian |
+| EDUCATION | Demographic information | int | 1 = graduate school; 2 = university; 3 = high school; 4 = others |
+| MARRIAGE | Demographic information | int | 1 = married; 2 = single; 3 = others |
 | AGE | Demographic information | int | Age in years |
-| PAY\_0, PAY\_2 - PAY\_6 | Inputs | int | History of past payment; PAY\_0 = the repayment status in September, 2005; PAY\_2 = the repayment status in August, 2005; ...; PAY\_6 = the repayment status in April, 2005.
- The measurement scale for the repayment status is: -1 = pay duly; 1 = payment delay for one month; 2 = payment delay for two months; ...; 8 = payment delay for eight months; 9 = payment delay for nine months and above |
+| PAY\_0, PAY\_2 - PAY\_6 | Inputs | int | History of past payment; PAY\_0 = the repayment status in September, 2005; PAY\_2 = the repayment status in August, 2005; ...; PAY\_6 = the repayment status in April, 2005. The measurement scale for the repayment status is: -1 = pay duly; 1 = payment delay for one month; 2 = payment delay for two months; ...; 8 = payment delay for eight months; 9 = payment delay for nine months and above |
 | BILL\_AMT1 - BILL\_AMT6 | Inputs | float | Amount of bill statement; BILL\_AMNT1 = amount of bill statement in September, 2005; BILL\_AMT2 = amount of bill statement in August, 2005; ...; BILL\_AMT6 = amount of bill statement in April, 2005 |
 | PAY\_AMT1 - PAY\_AMT6 | Inputs | float | Amount of previous payment; PAY\_AMT1 = amount paid in September, 2005; PAY\_AMT2 = amount paid in August, 2005; ...; PAY\_AMT6 = amount paid in April, 2005 |
-| DELINQ\_NEXT | Target | int | Whether a customer's next payment is delinquent (late),
- 1 = late; 0 = on-time |
+| DELINQ\_NEXT | Target | int | Whether a customer's next payment is delinquent (late), 1 = late; 0 = on-time |
 
 ### **Test Data**
 
