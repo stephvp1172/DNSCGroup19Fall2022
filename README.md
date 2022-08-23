@@ -89,11 +89,8 @@
 
 - **State the final values**
 
-|
- | **Training** | **Validation** | **Test** |
-| --- | --- | --- | --- |
-| **AUC** | 0.783722 | 0.749610 | 0.7438 |
-| **AIR** | N/A | N/A | 0.833205 |
+![Screen Shot 2022-08-23 at 7 45 21 PM](https://user-images.githubusercontent.com/111540054/186285190-e4e2dd66-26f4-420e-aeb8-e715f815bc3b.png)
+
 
 Among the 12 depth model we have trained, the best performing model is when the depth equals to 6. When the depth is 6, the training AUC is 0.783722, validation AUC is 0.749610, and the test AUC is 0.7438. The model is a stable model when depth is 6 since the standard deviation is around 2%. The AIR is 0.733205 when the depth is 6, the best fairness and performance when the depth is equal to 6. Therefore, It is a good model when depth equals to 6.
 
@@ -102,31 +99,39 @@ Among the 12 depth model we have trained, the best performing model is when the 
 
 As shown in the plot, the maximum of the Validation AUC is on depth 6, and the AIR reaches highest (except for the depth 1) when it is depth 6 or 7. Therefore, depth 6 might be the best model.
 
-![](RackMultipart20220823-1-br7xgj_html_63a17e9880b4980e.png)
+
+![IMG_4996](https://user-images.githubusercontent.com/111540054/186286148-ae0cc96c-abbb-4710-90ff-a459edaafcf7.jpg)
+
 
   - Iteration Table
 
 As shown in the table, the Validation AUC reaches its maximum number and Air is almost its maximum number when depth is 6.
 
-![](RackMultipart20220823-1-br7xgj_html_96d5d3563120acca.png)
+![IMG_0022](https://user-images.githubusercontent.com/111540054/186286161-3c5d3bd7-19d3-4073-a2ce-c38d439a84d0.jpg)
+
 
   - Histogram
 
 It can be easily seen that the distribution of variables. For example, most people pay their bill on-time based on the graph of the DELINQ\_NEXT graph at the end.
 
-![](RackMultipart20220823-1-br7xgj_html_dc273fadbc49aabe.png)
+![IMG_6221](https://user-images.githubusercontent.com/111540054/186286182-96252182-7900-4a2e-8cb4-5e7bc2a7b489.jpg)
+
+
 
   - Correlation Heatmap
 
 To see the correlationship between variables. For example, RACE and DELINQ\_NEXT are negatively correlated.
 
-![](RackMultipart20220823-1-br7xgj_html_2a3a1de6b46c3a68.png)
+![IMG_4535](https://user-images.githubusercontent.com/111540054/186286197-d049f23b-4346-4926-bc51-df5b5d852f7d.jpg)
+
 
   - Variable Importance
 
 The chart below shows us that we are relying too heavily on September (PAY\_0) information, as it has a significantly higher variable importance than all other inputs.
 
-![](RackMultipart20220823-1-br7xgj_html_3b41ee412ee6db70.png)
+![IMG_6563](https://user-images.githubusercontent.com/111540054/186286217-56349c54-fd85-46da-88f6-80688285a8b8.jpg)
+
+
 
 **Ethical Considerations:**
 
