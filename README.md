@@ -79,12 +79,8 @@
 ### **Quantitative Analysis**
 
 - **Metrics used to evaluate your final model (AUC and AIR)**
-  - AUC (Area Under the Curve) -This shows us the measurements for the entire area under the ROC curve (see definition below). The AUC provides us with a measure of the performance of our model when given the tree depth.
-    - Training AUC - This AUC that we found while testing our model. To find the best model, the Validation AUC should be the maximum number. The Validation AUC ensures our model will not go too far. Therefore, our best fit model is when depth equals to 6 in this case.
-    - Validation AUC - This is the AUC that we found when evaluating our trained model with the testing data set.
-    - Test AUC - This is the AUC found when testing our fully trained model on the dataset.
-    - ROC (receiver operating characteristic curve) - This graph shows us the performance of our classification model. (It is the validation AUC shown in the Iteration Plot below)
-  - AIR (Adverse Impact Ratio) - This is a metric of discrimination that shows us what is the rate of positive outcomes for protected groups to the rate of protected outcomes for our controlled group.
+  - AUC (Area Under the Curve) -The AUC provides us with a measure of the performance of our model when given the tree depth. A good model is found at the depth with maximum Validation AUC
+  - AIR (Adverse Impact Ratio) - The closer the number is to 1, the better the model is. The general concept of a good model needs to have an AIR that is greater than 0.8. If it fails to follow the rule, the probability cutoff needs to be done manually. 
 
 - **State the final values**
 
