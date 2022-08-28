@@ -96,7 +96,7 @@
   Among the 12 depth models we have trained, the best performing model is when the depth equals to 6 since it has the highest Validation AUC and the second highest Training AUC and AIR.
 
 - **Plots related to your data or final model**
-  - **Iteration Plot**
+ - **Iteration Plot**
 
     As shown in the plot, the maximum of the Validation AUC is on depth 6, and the AIR reaches highest (except for the depth 1) when it is depth 6 or 7. Therefore, depth 6 might be the best model.
 
