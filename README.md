@@ -79,8 +79,8 @@
 ### **Quantitative Analysis**
 
 - **Metrics used to evaluate your final model (AUC and AIR)**
-  - AUC (Area Under the Curve) - The AUC provides us with a measure of the performance of our model when given the tree depth. A good model is found at the depth with maximum Validation AUC
-  - AIR (Adverse Impact Ratio) - The closer the AIR is to 1, the better the model is. However, it is hard to have a model with AIR that is close to 1, so the general concept of a good model needs to have an AIR that is greater than 0.8. If it fails to follow the rule, the probability cutoff needs to be done manually. 
+  - AUC (Area Under the Curve) - This shows us the measurements for the entire area under the ROC curve (see definition below). The AUC provides us with a measure of the performance of our model when given the tree depth. 
+  - AIR (Adverse Impact Ratio) - This is a metric of discrimination that shows us what is the rate of positive outcomes for protected groups to the rate of protected outcomes for our controlled group.
 
 - **State the final values**
 
