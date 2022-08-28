@@ -102,7 +102,7 @@ As shown in the plot, the maximum of the Validation AUC is on depth 6, and the A
 
 
 ![IMG_4996](https://user-images.githubusercontent.com/111540054/186286148-ae0cc96c-abbb-4710-90ff-a459edaafcf7.jpg)
-
+!/Users/wantingliu/Downloads/iteration plot.png
 
   - Iteration Table
 
