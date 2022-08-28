@@ -107,7 +107,7 @@ As shown in the plot, the maximum of the Validation AUC is on depth 6, and the A
   - Iteration Table
 
 As shown in the table, the Validation AUC reaches its maximum number and Air is almost its maximum number when depth is 6.
-| **index** | **Training AUC** | **Validation AUC** | **5-Fold SD** | **Hispanic-to-White AIR** |
+|  | **Training AUC** | **Validation AUC** | **5-Fold SD** | **Hispanic-to-White AIR** |
 |---|---|---|---|---|
 |1|0\.6457482959813234|0\.6438801727855158|0\.009275303818023868|0\.89414802613357|
 |2|0\.6999123398719492|0\.6877515174864963|0\.012626349411887162|0\.8508708566822412|
