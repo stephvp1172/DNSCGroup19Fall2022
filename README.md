@@ -153,7 +153,7 @@ The chart below shows us that we are relying too heavily on September (PAY\_0) i
     - Our test data is relatively small since there are only 7,500 rows. This means that we were not able to run difficult tests on the model, so this model may not give us an accurate prediction of future credit payments.
   - **Real World Risks**
     -  Demographic information, such as race and gender, pose both a privacy issue for consumers and it can cause our own biases to get in the way of creating a truly unbias model. This can quickly become an issue of disparate treatment, as our model can make decisions based on a consumer's sex or race.  Bias tests reveal certain demographic groups, like Black or Hispanic people, may be experiencing disparate impact under this model, which can lead to legal and reputation ramifications for the company.
-    -  The initial AIR for hispanic-to-white was less than 0.8 (0.76). This required us to modify the cutoffs in order to increase that number. 
+    -  The initial AIR for hispanic-to-white was less than 0.8 (0.76). This required us to manually modify the cutoffs in order to increase that number. 
 - **Negative/Unexpected Results**
     - This data set also had no missing values. This is unrealistic to real world scenarios, as datasets we will work with in the future may contain missing values.
     - The model relies too much on September's data (PAY\_0). This means that if September's data is inaccurate, it will negatively affect the accuracy of the whole model.
