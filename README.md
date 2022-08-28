@@ -79,7 +79,7 @@
 ### **Quantitative Analysis**
 
 - **Metrics used to evaluate your final model (AUC and AIR)**
-  - AUC (Area Under the Curve) - This shows us the measurements for the entire area under the ROC curve (see definition below). The AUC provides us with a measure of the performance of our model when given the tree depth. 
+  - AUC (Area Under the Curve) - This shows us the measurements for the entire area under the ROC curve. The AUC provides us with a measure of the performance of our model when given the tree depth. 
   - AIR (Adverse Impact Ratio) - This is a metric of discrimination that shows us what is the rate of positive outcomes for protected groups to the rate of protected outcomes for our controlled group.
 
 - **State the final values**
