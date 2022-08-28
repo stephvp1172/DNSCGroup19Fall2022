@@ -146,8 +146,7 @@ The chart below shows us that we are relying too heavily on September (PAY\_0) i
 ![variable importance](https://user-images.githubusercontent.com/111540054/187085396-eb2477fd-3461-44ee-90d4-b06e9d21adf5.png)
 
 
-
-## **Ethical Considerations**
+### **Ethical Considerations**
 
 - **Potential Negative Impacts and Uncertainties**
   - **Math/Software Issues**
