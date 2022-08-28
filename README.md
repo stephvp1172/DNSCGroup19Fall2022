@@ -96,13 +96,13 @@
   Among the 12 depth models we have trained, the best performing model is when the depth equals to 6 since it has the highest Validation AUC and the second highest Training AUC and AIR.
 
 - **Plots related to your data or final model**
- - **Iteration Plot**
+Iteration Plot
 
     As shown in the plot, the maximum of the Validation AUC is on depth 6, and the AIR reaches highest (except for the depth 1) when it is depth 6 or 7. Therefore, depth 6 might be the best model.
 
 ![iteration plot](https://user-images.githubusercontent.com/111540054/187085357-0b09d05a-350d-4240-a859-5b5561c1a3b2.png)
 
-  - **Iteration Table**
+Iteration Table
  
     As shown in the table, the Validation AUC reaches its maximum number and Air is almost its maximum number when depth is 6.
     
@@ -121,14 +121,14 @@
 |11|0\.8551676678431094|0\.7098641342481202|0\.010404527126885185|0\.8378061717569955|
 |12|0\.8742507449104165|0\.688074125292462|0\.008073026747413463|0\.8448891638378985|
 
-  - **Histogram**
+Histogram*
  
     It can be easily seen that the distribution of variables. For example, most people pay their bill on-time based on the graph of the DELINQ\_NEXT graph at the end.
 
 ![histogram](https://user-images.githubusercontent.com/111540054/187085372-0507ad7d-eda6-434d-92bc-0a3a55a7eb85.png)
 
 
-  - **Correlation Heatmap**
+Correlation Heatmap
 
     To see the correlationship between variables. For example, RACE and DELINQ\_NEXT are negatively correlated.
 
@@ -136,7 +136,7 @@
 ![heatmap](https://user-images.githubusercontent.com/111540054/187085385-68b0c12a-3488-4c44-ad04-e1ce24dba8ab.png)
 
 
-  - **Variable Importance**
+Variable Importance
 
     The chart below shows us that we are relying too heavily on September (PAY\_0) information, as it has a significantly higher variable importance than all other inputs.
 
