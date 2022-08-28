@@ -10,9 +10,9 @@
 - **Project GitHub Page:** [Model GitHub Page](https://github.com/stephvp1172/DNSCGroup19Fall2022)
 - **Model implementation code** : [DNSC\_6301\_Example\_Project.ipynb](https://github.com/stephvp1172/DNSCGroup19Fall2022/blob/main/Copy_of_DNSC_6301_Example_Project.ipynb)
 - **Intended Use**
-  - Primary intended uses: This model is an _example_ probability of default classifier, with an _example_ use case for determining eligibility for a credit line increase.
-  - Primary intended users: Students in GWU DNSC 6301 bootcamp.
-  - Out-of-scope use cases: Any use beyond an educational example is out-of-scope.
+  - **Primary intended uses**: This model is an _example_ probability of default classifier, with an _example_ use case for determining eligibility for a credit line increase.
+  - **Primary intended users**: Students in GWU DNSC 6301 bootcamp.
+  - **Out-of-scope use cases**: Any use beyond an educational example is out-of-scope.
 
 ### **Training Data**
 
