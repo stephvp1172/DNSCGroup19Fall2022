@@ -88,7 +88,7 @@
 
 - **State the final values**
 
-| ** ** | **Training** | **Validation** | **Test** |
+|  | **Training** | **Validation** | **Test** |
 |---|---|---|---|
 | **AUC** | 0.783722 | 0.749610 | 0.7438 |
 
