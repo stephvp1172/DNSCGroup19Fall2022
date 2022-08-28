@@ -97,7 +97,7 @@
 | **AIR (Before Cutoff)** | 0.76 | 0.82 | 1.00 | 1.06 |
 | **AIR (After Cutoff)** | 0.83 | 0.85 | 1.00 | 1.02 |
 
-Among the 12 depth model we have trained, the best performing model is when the depth equals to 6. When the depth is 6, the training AUC is 0.783722, validation AUC is 0.749610, and the test AUC is 0.7438. The model is a stable model when depth is 6 since the standard deviation is around 2%. The AIR is 0.733205 when the depth is 6, the best fairness and performance when the depth is equal to 6. Therefore, It is a good model when depth equals to 6.
+Among the 12 depth models we have trained, the best performing model is when the depth equals to 6 since it has the highest Validation AUC and the second highest Training AUC and AIR.
 
 - **Plots related to your data or final model**
   - Iteration Plot
