@@ -147,7 +147,7 @@ The chart below shows us that we are relying too heavily on September (PAY\_0) i
 
 
 
-##**Ethical Considerations:**
+## **Ethical Considerations:**
 
 - **Potential Negative Impacts and Uncertainties**
   - **Math/Software Issues**
