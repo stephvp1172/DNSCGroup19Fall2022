@@ -88,8 +88,9 @@
 
 - **State the final values**
 
-![Screen Shot 2022-08-23 at 7 45 21 PM](https://user-images.githubusercontent.com/111540054/186285190-e4e2dd66-26f4-420e-aeb8-e715f815bc3b.png)
-
+| **index** | **Training** | **Validation** | **Test** |
+|---|---|---|---|
+| **AUC** | 0.783722 | 0.749610 | 0.7438 |
 
 Among the 12 depth model we have trained, the best performing model is when the depth equals to 6. When the depth is 6, the training AUC is 0.783722, validation AUC is 0.749610, and the test AUC is 0.7438. The model is a stable model when depth is 6 since the standard deviation is around 2%. The AIR is 0.733205 when the depth is 6, the best fairness and performance when the depth is equal to 6. Therefore, It is a good model when depth equals to 6.
 
