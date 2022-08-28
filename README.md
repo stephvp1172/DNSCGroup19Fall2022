@@ -93,12 +93,12 @@
 | **AIR (Before Cutoff)** | 0.76 | 0.82 | 1.00 | 1.06 |
 | **AIR (After Cutoff)** | 0.83 | 0.85 | 1.00 | 1.02 |
 
-Among the 12 depth models we have trained, the best performing model is when the depth equals to 6 since it has the highest Validation AUC and the second highest Training AUC and AIR.
+  Among the 12 depth models we have trained, the best performing model is when the depth equals to 6 since it has the highest Validation AUC and the second highest Training AUC and AIR.
 
 - **Plots related to your data or final model**
   - **Iteration Plot**
 
-  As shown in the plot, the maximum of the Validation AUC is on depth 6, and the AIR reaches highest (except for the depth 1) when it is depth 6 or 7. Therefore, depth 6 might be the best model.
+    As shown in the plot, the maximum of the Validation AUC is on depth 6, and the AIR reaches highest (except for the depth 1) when it is depth 6 or 7. Therefore, depth 6 might be the best model.
 
 
 ![iteration plot](https://user-images.githubusercontent.com/111540054/187085357-0b09d05a-350d-4240-a859-5b5561c1a3b2.png)
@@ -106,7 +106,7 @@ Among the 12 depth models we have trained, the best performing model is when the
 
   - **Iteration Table**
 
-As shown in the table, the Validation AUC reaches its maximum number and Air is almost its maximum number when depth is 6.
+    As shown in the table, the Validation AUC reaches its maximum number and Air is almost its maximum number when depth is 6.
 |  | **Training AUC** | **Validation AUC** | **5-Fold SD** | **Hispanic-to-White AIR** |
 |---|---|---|---|---|
 |1|0\.6457482959813234|0\.6438801727855158|0\.009275303818023868|0\.89414802613357|
@@ -124,14 +124,14 @@ As shown in the table, the Validation AUC reaches its maximum number and Air is 
 
   - **Histogram**
 
-It can be easily seen that the distribution of variables. For example, most people pay their bill on-time based on the graph of the DELINQ\_NEXT graph at the end.
+    It can be easily seen that the distribution of variables. For example, most people pay their bill on-time based on the graph of the DELINQ\_NEXT graph at the end.
 
 ![histogram](https://user-images.githubusercontent.com/111540054/187085372-0507ad7d-eda6-434d-92bc-0a3a55a7eb85.png)
 
 
   - **Correlation Heatmap**
 
-To see the correlationship between variables. For example, RACE and DELINQ\_NEXT are negatively correlated.
+    To see the correlationship between variables. For example, RACE and DELINQ\_NEXT are negatively correlated.
 
 
 ![heatmap](https://user-images.githubusercontent.com/111540054/187085385-68b0c12a-3488-4c44-ad04-e1ce24dba8ab.png)
@@ -139,7 +139,7 @@ To see the correlationship between variables. For example, RACE and DELINQ\_NEXT
 
   - **Variable Importance**
 
-The chart below shows us that we are relying too heavily on September (PAY\_0) information, as it has a significantly higher variable importance than all other inputs.
+    The chart below shows us that we are relying too heavily on September (PAY\_0) information, as it has a significantly higher variable importance than all other inputs.
 
 
 ![variable importance](https://user-images.githubusercontent.com/111540054/187085396-eb2477fd-3461-44ee-90d4-b06e9d21adf5.png)
