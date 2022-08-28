@@ -10,7 +10,7 @@
 - **Project GitHub Page:** [Model GitHub Page](https://github.com/stephvp1172/DNSCGroup19Fall2022)
 - **Model implementation code** : [DNSC\_6301\_Example\_Project.ipynb](https://github.com/stephvp1172/DNSCGroup19Fall2022/blob/main/DNSC_6301_Project_Group_19.ipynb)
 - **Intended Use**
-  - **Primary intended uses**: This model is an _example_ probability of default classifier, with an _example_ use case for determining eligibility for a credit line increase.
+  - **Primary intended uses**: This model is an example probability of default classifier, with an example use case for determining eligibility for a credit line increase.
   - **Primary intended users**: Students in GWU DNSC 6301 bootcamp.
   - **Out-of-scope use cases**: Any use beyond an educational example is out-of-scope.
 
@@ -147,7 +147,7 @@ The chart below shows us that we are relying too heavily on September (PAY\_0) i
 
 
 
-## **Ethical Considerations:**
+# **Ethical Considerations:**
 
 - **Potential Negative Impacts and Uncertainties**
   - **Math/Software Issues**
