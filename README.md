@@ -149,13 +149,13 @@ The chart below shows us that we are relying too heavily on September (PAY\_0) i
 
 - **Potential Negative Impacts and Uncertainties**
   - **Math/Software Issues**
-    - Because there are thousands of different good decision making models (rashmond effect), or data can change with the slightest tweek. This means there are thousands of possibilities, which would be impossible for us to try them all.
-    - Since our test data only contains 7,500 rows, our test data is relatively small. The small number of rows meant that we were not able to run difficult tests on the model. Because of this, it is not an accurate representation, and will not give us an accurate prediction of future credit payments.
+    - Because there are thousands of different good decision making models (Rashomon effect), or data can change with the slightest tweek. This means there are thousands of possibilities, which would be impossible for us to try them all.
+    - Since our test data only contains 7,500 rows, our test data is relatively small. The small number of rows meant that we were not able to run difficult tests on the model. Because of this, it is not an accurate representation, and may not give us an accurate prediction of future credit payments.
   - **Real World Risks**
     - Because we can see certain demographic information about each person, it can cause our own biases to get in the way of creating a truly unbiased model.
       - Furthermore, showing demographics such as race and gender pose an issue with privacy for consumers.
       - This can quickly become an issue of disparate treatment, as our model can make decisions based on a consumer's sex or race. This can lead to reputation problems for a company, legal ramifications, etc.
-    - This model shows us that we are lending to too many asians and caucasians, and not enough blacks and hispanics; this poses an issue of racial bias.
+    - Bias tests reveal certain demographic groups, like Black or Hispanic people, may be experiencing disparate impact under this model.
 - **Negative/Unexpected Results**
   - **Did we see any unexpected results?**
     - This data set also had no missing values. This is unrealistic to real world scenarios, as most datasets we will work with in the future will contain missing values.
